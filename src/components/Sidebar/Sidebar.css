@@ -1,0 +1,22 @@
+ .sidebar-main-icon {
+  background-color: #1A1826;
+ }
+ .sidebar-content {
+  background-color: #1A1826;
+  transition: left 2s ease; /* Transition property for smooth animation */
+  width: 400px;
+  overflow-y: auto;
+}
+.sidebar-open {
+  left: 0; 
+}
+
+.sidebar-close {
+  left: -400px; 
+}
+
+@media (max-width:768px) {
+  .sidebar{
+    display: none;
+  }
+}
