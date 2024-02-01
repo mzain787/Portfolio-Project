@@ -7,6 +7,7 @@ import "../Home/Home.css";
 import Testimonial from "../Childcomps/Testimonial";
 import clientImg1 from "../../assets/images/testimonial-image.png";
 import HomeComponentsHeading from "../Childcomps/HomeComponentsHeading";
+import Hirebtn from "../Childcomps/Hirebtn";
 
 const Testimonials = ({showHeading = true}) => {
   const testimonials = [
@@ -114,7 +115,7 @@ const Testimonials = ({showHeading = true}) => {
             <p className="text-purple-200 text-xl tracking-wide font-semibold mb-2">100%</p>
             <h3 className="text-base text-purple-300 tracking-wide font-medium">Good Reviews</h3>
           </div>
-          <button className="h-12 w-28 bg-orange-300 text-black text-sm font-medium tracking-wide"><a href="/">Hire Me</a></button>
+          <Hirebtn/>
         </div>
       </div>
     </div>
