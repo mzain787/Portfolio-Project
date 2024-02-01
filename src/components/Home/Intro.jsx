@@ -9,7 +9,7 @@ const Intro = () => {
   return (
     <>
     <section className="basic-padding wrapper">
-    <div className="intro-top mb-10 flex gap-10">
+    <div className="intro-top mb-5 flex justify-start gap-10">
      <HomeComponentsHeading smallheading= "😎 I WANT TO INTROUCE MYSELF" heading="Professional" subheading="Experienced"/>
      <div className="intro-top-right">
         <p className='text-purple-200 text-base font-medium mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>

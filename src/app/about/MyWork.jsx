@@ -12,15 +12,15 @@ const MyWork = () => {
     <div className="my-work-images flex">
         <div className="images-section1 flex flex-col">
             <div className="images-section1-top flex items-center">
-                <img src={workImg1.src} alt="image" />
-                <img src={workImg2.src} alt="image" />
+                <img src={workImg1.src} alt="image" className='w-1/2'/>
+                <img src={workImg2.src} alt="image" className='w-1/2'/>
             </div>
             <div className="images-section1-bottom">
-            <img src={workImg3.src} alt="image" />
+            <img src={workImg3.src} alt="image"  className='w-full h-80' />
             </div>
         </div>
-        <div className="images-section-2">
-            <img src={workImg4.src} alt="image" />
+        <div className="images-section2">
+            <img src={workImg4.src} alt="image"  className='w-full h-full'/>
         </div>
     </div>
    </div>

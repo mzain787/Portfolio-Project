@@ -43,7 +43,7 @@ const Skills = () => {
         <div className='text-center'>
         <HomeComponentsHeading smallheading="🗓️ WHAT I DO" heading="My" subheading="Skillset"/>
         </div>
-       <div className='flex justify-center gap-10 flex-wrap w-full'>
+       <div className='flex justify-start gap-10 flex-wrap w-full'>
         {skills.map((skill) => (
           <Myskill
             key={skill.number} // It's good practice to provide a unique key when using map

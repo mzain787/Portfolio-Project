@@ -17,7 +17,33 @@
 .component-padding {
     padding: 80px 80px 80px 100px;
   }
-
+  /* Mywork css */
+.images-section1{
+ width: 65%;
+}
+.images-section2{
+  width: 35%;
+}
+.about-bottom{
+  background-color: #100f15;
+  padding: 50px;
+}
+.about-botton-heading{
+  font-size: 50px;
+  line-height: 60px;
+  font-family: "Syne", sans-serif;
+}
+.abilities-section-2 h3{
+  font-family: "Syne", sans-serif;
+}
+.abilities-section1{
+  background-color: #1A1826;
+  padding: 20px;
+  width: 45%;
+}
+.abilities-section2{
+  width:55%;
+}
   @media (max-width:992px) {
     .component-padding {
         padding: 60px 60px 60px 100px;
@@ -37,6 +63,20 @@
       }
       .intro-content{
         width: 50%;
+      }
+      .images-section1{
+        width: 50%;
+       }
+       .images-section2{
+         width: 50%;
+       }
+       .about-bottom{
+        padding: 30px;
+      }
+      .about-botton-heading{
+        font-size: 36px;
+        line-height: 43px;
+        font-family: "Syne", sans-serif;
       }
   }
   @media (max-width:768px) {
@@ -58,5 +98,25 @@
       }
       .intro-content{
         width: 100%;
+      }
+      .my-work-images{
+        flex-direction: column;
+      }
+      .images-section1{
+        width: 100%;
+       }
+       .images-section2{
+         width: 100%;
+       }
+       .images-section1-bottom img{
+        height: auto;
+       }
+       .about-bottom{
+        padding: 30px;
+      }
+      .about-botton-heading{
+        font-size: 24px;
+        line-height: 30px;
+        font-family: "Syne", sans-serif;
       }
   }

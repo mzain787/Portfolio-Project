@@ -39,7 +39,7 @@ const Journey = () => {
   ];
   return (
     <section className="my-experience-journey">
-     <div className="wrapper flex justify-center gap-5 items-end journey-main">
+     <div className="wrapper flex justify-start gap-5 items-end journey-main">
         <div className="journey-image">
             <img src={manPic.src} alt="man-image" className='w-full'/>
         </div>
