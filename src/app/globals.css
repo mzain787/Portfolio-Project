@@ -18,3 +18,22 @@ body{
   max-width:1440px;
   margin: auto;
 }
+
+
+
+
+/* MyAccordionComponent.module.css */
+.customAccordion {
+  margin: 20px; /* Add margin for spacing */
+}
+
+.customAccordionHeader {
+  background-color: #3498db; /* Customize header background color */
+  color: #ffffff; /* Customize header text color */
+  font-weight: bold; /* Add bold font weight */
+}
+
+.customAccordionBody {
+  background-color: #ecf0f1; /* Customize body background color */
+  padding: 10px; /* Add padding for content */
+}

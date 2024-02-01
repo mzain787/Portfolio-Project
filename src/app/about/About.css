@@ -28,7 +28,7 @@
   background-color: #100f15;
   padding: 50px;
 }
-.about-botton-heading{
+.about-bottom-heading{
   font-size: 50px;
   line-height: 60px;
   font-family: "Syne", sans-serif;
@@ -73,7 +73,7 @@
        .about-bottom{
         padding: 30px;
       }
-      .about-botton-heading{
+      .about-bottom-heading{
         font-size: 36px;
         line-height: 43px;
         font-family: "Syne", sans-serif;
@@ -114,9 +114,18 @@
        .about-bottom{
         padding: 30px;
       }
-      .about-botton-heading{
+      .about-bottom-heading{
         font-size: 24px;
         line-height: 30px;
         font-family: "Syne", sans-serif;
+      }
+      .abilities{
+        flex-direction: column;
+      }
+      .abilities-section1{
+        width: 100%;
+      }
+      .abilities-section2{
+        width:100%;
       }
   }

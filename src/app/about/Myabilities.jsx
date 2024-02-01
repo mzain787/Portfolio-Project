@@ -5,6 +5,8 @@ import tool1 from "../../assets/images/figma.svg"
 import tool2 from "../../assets/images/react.svg"
 import tool3 from "../../assets/images/next-js.svg"
 import Experties from '@/components/Childcomps/Experties'
+import "./About.css"
+
 const tools =[
     {
         toolImage:tool1,
@@ -23,16 +25,18 @@ const tools =[
     },
 ]
 const skillsData = [
-    { skillName: 'HTML', percentage: '80%' },
-    { skillName: 'CSS', percentage: '75%' },
-    { skillName: 'JavaScript', percentage: '90%' },
-    // Add more skills as needed
+    { skillName: 'HTML', percentage: '90%' },
+    { skillName: 'CSS', percentage: '85%' },
+    { skillName: 'JavaScript', percentage: '92%' },
+    { skillName: 'React.js', percentage: '95%' },
+    { skillName: 'Next.js', percentage: '75%' },
+    { skillName: 'Reduc Toolkit', percentage: '80%' },
   ];
 const Myabilities = () => {
   return (
     <section className="my-abilities wrapper component-padding">
         <HomeComponentsHeading smallheading="💻 SKILL IN RACE" heading="Measurable" subheading="Ability"/>
-        <div className="abilities mb-20 flex gap-5 items-start">
+        <div className="abilities mb-20 flex gap-10 items-start">
             <div className="abilities-section1">
             <div className="skills-container">
         {skillsData.map((skill, index) => (
@@ -58,7 +62,7 @@ const Myabilities = () => {
        
         </div>
         <div className="about-bottom flex flex-col justify-center items-center">
-            <h3 className='about-botton-heading text-center font-semibold text-purple-200 mb-10'>Want to Work Together And Create An Amazing Products With Me?</h3>
+            <h3 className='about-bottom-heading text-center font-semibold text-purple-200 mb-10'>Want to Work Together And Create An Amazing Products With Me?</h3>
             <Hirebtn/>
         </div>
     </section>

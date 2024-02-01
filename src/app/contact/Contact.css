@@ -1,0 +1,14 @@
+.component-padding {
+  padding: 80px 80px 80px 100px;
+}
+
+@media (max-width: 992px) {
+  .component-padding {
+    padding: 60px 60px 60px 100px;
+  }
+}
+@media (max-width: 768px) {
+  .component-padding {
+    padding: 20px;
+  }
+}
