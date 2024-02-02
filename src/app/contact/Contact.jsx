@@ -3,7 +3,7 @@ import React from "react";
 import "./Contact.css";
 import contactImg from "../../assets/images/journey-man.png";
 import PageHeading from "@/components/Childcomps/PageHeading/PageHeading";
-import MyAccordionComponent from "@/components/MyAccordianComponent/MyAccordianComponent";
+import MyAccordionComponent from "@/components/Childcomps/MyAccordianComponent/MyAccordianComponent";
 import HomeComponentsHeading from "@/components/Childcomps/HomeComponentsHeading";
 import Startups from "@/components/Childcomps/Startups";
 const Contact = () => {

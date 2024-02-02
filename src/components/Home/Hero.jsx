@@ -3,10 +3,10 @@ import "../Home/Home.css"
 import fiverr from "../../assets/images/fi.png"
 import upwork from "../../assets/images/up.png"
 import man from "../../assets/images/man-image.png"
-import Startups from '../Childcomps/startups'
 const Hero = () => {
   return (
-    <section className="hero-section home-page relative wrapper">
+    <>
+    <section className="hero-section  wrapper home-page relative">
       <div className="upwork-fiverr flex items-center gap-3 p-12">
       <p className='text-pruple-200 tracking-wide text-base font-medium'>Top Rated At</p>
       <img src={fiverr.src} alt="fiverr-logo" className='w-10 h-10'/>
@@ -47,6 +47,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+    </>
   )
 }
 

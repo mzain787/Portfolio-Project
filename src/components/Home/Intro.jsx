@@ -5,10 +5,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import HomeComponentsHeading from '../Childcomps/HomeComponentsHeading';
 import Hirebtn from '../Childcomps/Hirebtn';
+import Startups from '../Childcomps/Startups';
+
 const Intro = () => {
   return (
     <>
     <section className="basic-padding wrapper">
+      <div className="mb-10">
+      <Startups/>
+      </div>
     <div className="intro-top mb-5 flex justify-start gap-10">
      <HomeComponentsHeading smallheading= "😎 I WANT TO INTROUCE MYSELF" heading="Professional" subheading="Experienced"/>
      <div className="intro-top-right">
