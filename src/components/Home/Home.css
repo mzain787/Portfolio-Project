@@ -141,6 +141,9 @@
   width: 40%;
   background-color: #1a1826;
 }
+.hero-startups img {
+  width: 15%;
+}
 @media (max-width: 1280px) {
   /* Hero Section */
   .hero-section {
@@ -208,6 +211,9 @@
     padding: 40px;
     width: 50%;
     background-color: #1a1826;
+  }
+  .hero-startups img {
+    width: 20%;
   }
 }
 @media (max-width: 768px) {

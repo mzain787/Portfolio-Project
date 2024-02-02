@@ -6,6 +6,7 @@ import tool2 from "../../assets/images/react.svg"
 import tool3 from "../../assets/images/next-js.svg"
 import Experties from '@/components/Childcomps/Experties'
 import "./About.css"
+import Startups from '@/components/Childcomps/Startups'
 
 const tools =[
     {
@@ -61,10 +62,11 @@ const Myabilities = () => {
         </div>
        
         </div>
+        <Startups/>
         <div className="about-bottom flex flex-col justify-center items-center">
             <h3 className='about-bottom-heading text-center font-semibold text-purple-200 mb-10'>Want to Work Together And Create An Amazing Products With Me?</h3>
             <Hirebtn/>
-        </div>
+        </div>      
     </section>
   )
 }
