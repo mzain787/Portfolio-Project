@@ -37,9 +37,6 @@ const Hero = () => {
           <p className='text-4xl font-bold text-purple-200 mb-3 tracking-wider numbers'>175</p>
           <p className='text-purple-400 text-base font-medium'>Global Clients</p>
         </div>
-        <div className="get-started w-24 h-24 rounded-full bg-orange-300 cursor-pointer">
-          <a href='/' className='text-black text-center font-bold'>Get Started</a>
-        </div>
         </div>
         </div>
         <div className="hero-image">

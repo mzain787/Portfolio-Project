@@ -35,15 +35,6 @@
 .achievement .numbers {
   font-family: "Syne", sans-serif;
 }
-.get-started {
-  position: relative;
-}
-.get-started a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 /* Intro-Section CSS */
 .basic-padding {
   padding: 80px 80px 80px 100px;
@@ -281,15 +272,6 @@
     position: relative;
     top: 30px;
     width: 100%;
-  }
-  .get-started {
-    position: absolute;
-    bottom: 20px;
-    z-index: 9;
-    width: 100px;
-    height: 100px;
-    left: 50%;
-    transform: translateX(-50%);
   }
   .upwork-fiverr {
     padding-left: 0px;

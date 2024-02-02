@@ -94,7 +94,7 @@ const Testimonials = ({showHeading = true}) => {
           <Slider {...settings}>
             {testimonials.map((testimonial) => (
               <Testimonial
-                key={testimonial.id}
+                key={testimonial.clientName}
                 clientReview={testimonial.clientReview}
                 clientImg={testimonial.clientImg}
                 clientName={testimonial.clientName}

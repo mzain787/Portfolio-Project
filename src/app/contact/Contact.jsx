@@ -50,7 +50,13 @@ const Contact = () => {
         </div>
         <div className="contact-bottom flex gap-10 justify-center mb-10">
           <div className="contact-accordian self-center">
+            <div className="mb-5">
             <MyAccordionComponent accordionData={accordionData} />
+            </div>
+            <div className="contact-buttons flex flex-wrap gap-2 items-center">
+            <button className="h-12 w-40 bg-orange-300 text-black text-sm font-medium tracking-wide"><a href="/">Contact Me</a></button>
+            <a href="/" className="text-purple-200 text-sm font-semibold">Message Me On Linkedin</a>
+            </div>
           </div>
           <div className="contact-image self-end">
             <img src={contactImg.src} alt="" className="w-full" />
