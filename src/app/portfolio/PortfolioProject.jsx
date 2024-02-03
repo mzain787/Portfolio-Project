@@ -3,7 +3,7 @@ import React from "react";
 
 const PortfolioProject = ({ pprojectName, ppLink, ppImage }) => {
   return (
-    <section className="portfolio-project">
+    <section className="portfolio-project mb-10">
       <div className="portfolio-project-image mb-3 w-full">
         <img src={ppImage.src} className="w-full" />
       </div>

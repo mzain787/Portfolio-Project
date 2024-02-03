@@ -57,7 +57,7 @@ const PortfolioSection = () => {
           subheading="Cool Project"
         />
       </div>
-      <div className="our-portfolio-projects flex flex-wrap w-full gap-10 justify-start">
+      <div className="our-portfolio-projects w-full">
         {pprojects.map((pproject)=>(
         <div className="single-project">
         <PortfolioProject pprojectName={pproject.pprojectName} ppLink={pproject.ppLink}ppImage={pproject.ppImage}/>

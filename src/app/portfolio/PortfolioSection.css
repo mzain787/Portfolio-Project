@@ -10,6 +10,16 @@
 .portfolio-project-image{
   background-color: #1A1826;
 }
+.our-portfolio-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start;
+}
+
+.single-project {
+  flex: 1 0 calc(50% - 10px); 
+}
 
 @media (max-width: 992px) {
   .component-padding {
