@@ -58,9 +58,12 @@ const PortfolioSection = () => {
         />
       </div>
       <div className="our-portfolio-projects w-full">
-        {pprojects.map((pproject)=>(
-        <div className="single-project">
-        <PortfolioProject pprojectName={pproject.pprojectName} ppLink={pproject.ppLink}ppImage={pproject.ppImage}/>
+        {pprojects.map((pproject,index)=>(
+        <div className="single-project" key={index}>
+        <PortfolioProject
+        pprojectName={pproject.pprojectName} 
+        ppLink={pproject.ppLink}
+        ppImage={pproject.ppImage}/>
         </div>
         ))
         }

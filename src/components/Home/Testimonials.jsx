@@ -61,7 +61,7 @@ const Testimonials = ({showHeading = true}) => {
         style={{
           width: "10px",
           height: "10px",
-          background: i === settings.currentSlide ? "grey" : "orange",
+          background: i === settings.currentSlide ? "grey" : "grey",
           borderRadius: "50%",
           margin: "20px 5px",
           cursor: "pointer",
