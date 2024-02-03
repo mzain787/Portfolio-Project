@@ -9,7 +9,7 @@ const ProfileModal = ({ isOpen, closeModal }) => {
   const videoId = "PYuPmNFHTog"; // Extract video ID from your YouTube link
 
   const opts = {
-    height: "550px",
+    height: "400",
     width: "100%",
     playerVars: {
       autoplay: 1,
@@ -26,7 +26,8 @@ const ProfileModal = ({ isOpen, closeModal }) => {
     >
       <div className="modal-content">
 
-        <YouTube videoId={videoId} opts={opts} />
+       <YouTube videoId={videoId} opts={opts} />
+        
 
         <div className="close-icon" onClick={closeModal}>
           <FontAwesomeIcon icon={faTimes} className="text-3xl text-orange-300 font-bold"/>
