@@ -7,6 +7,10 @@
   font-family: "Syne", sans-serif;
   margin-bottom: 30px;
 }
+.portfolio-project-image{
+  background-color: #1A1826;
+}
+
 @media (max-width: 992px) {
   .component-padding {
     padding: 60px 60px 60px 100px;
@@ -27,5 +31,11 @@
   .portfolio-main-heading{
     font-size: 30px;
     line-height: 32px;
+  }
+  .our-portfolio-projects{
+    flex-direction: column;
+  }
+  .single-project{
+    width: 100%;
   }
 }
