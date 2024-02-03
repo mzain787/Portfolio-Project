@@ -1,9 +1,13 @@
 import React from "react";
 import "../Home/Home.css";
 import star from "../../assets/images/star.svg";
-const Proj = ({projectCategory,projectDescription,projectClient,projectImg,projectRating,reverseOrder}) => {
+const Proj = ({projectCategory,projectDescription,projectClient,projectImg,projectRating,reverseOrder, showcaseLink}) => {
   return (
     <div className={`our-project flex items-center gap-10 ${reverseOrder ? 'flex-row-reverse' : 'flex-row'}`}>
+      
+      <div className="project-image">
+          <img src={projectImg.src} className="w-full"/>
+      </div>
       <div className="project-info">
         <div className="project-category mb-6">
           <h3 className="text-sm text-gray-600 font-semibold tracking-wide mb-1">
@@ -52,12 +56,9 @@ const Proj = ({projectCategory,projectDescription,projectClient,projectImg,proje
             </div>
           </div>
           <span>
-            <a href="/" className="text-orange-300 text-sm pb-1 border-b border-orange-300 tracking-wide ">Showcase</a>
+            <a href={showcaseLink} target="_blank" className="text-orange-300 text-sm pb-1 border-b border-orange-300 tracking-wide ">Showcase</a>
           </span>
         </div>
-      </div>
-      <div className="project-image">
-          <img src={projectImg.src} className="w-full"/>
       </div>
     </div>
   );

@@ -14,7 +14,8 @@ const Projects = () => {
       projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
       projectClient: "Andrew NG",
       projectImg: projImg1,
-      projectRating:"4.8"
+      projectRating:"4.8",
+      showcaseLink:"/"
     },
     {
       projectCategory: "E-commerce App",
@@ -22,14 +23,16 @@ const Projects = () => {
       projectClient: "Jack MA",
       projectImg: projImg2,
       projectRating:"5.0",
-      reverseOrder:true
+      reverseOrder:true,
+      showcaseLink:"/"
     },
     {
       projectCategory: "Accomodation App",
       projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
       projectClient: "Andrew NG",
       projectImg: projImg3,
-      projectRating:"4.8"
+      projectRating:"4.8",
+      showcaseLink:"/"
     },
     {
       projectCategory: "E-commerce App",
@@ -37,9 +40,9 @@ const Projects = () => {
       projectClient: "Jack MA",
       projectImg: projImg4,
       projectRating:"5.0",
-      reverseOrder:true
+      reverseOrder:true,
+      showcaseLink:"/"
     }
-    // Add more project objects as needed
   ];
 
   return (

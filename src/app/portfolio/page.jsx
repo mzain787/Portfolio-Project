@@ -1,9 +1,13 @@
 import React from 'react'
-
-const page = () => {
+import PageHeading from '@/components/Childcomps/PageHeading/PageHeading'
+import PortfolioSection from './PortfolioSection'
+const Portfolio = () => {
   return (
-    <div>page</div>
+    <>
+    <PageHeading pageHeading="Portfolio"/>
+    <PortfolioSection/>
+    </>
   )
 }
 
-export default page
+export default Portfolio
