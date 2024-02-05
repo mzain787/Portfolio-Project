@@ -1,7 +1,7 @@
 import React from 'react';
 import Myskill from '../Childcomps/Myskill';
 import HomeComponentsHeading from '../Childcomps/HomeComponentsHeading';
-
+import AosAnimation from '@/utils/AosAnimation';
 const Skills = () => {
   const skills = [
     {
@@ -43,6 +43,7 @@ const Skills = () => {
         <div className='text-center'>
         <HomeComponentsHeading smallheading="🗓️ WHAT I DO" heading="My" subheading="Skillset"/>
         </div>
+        <AosAnimation type='fade-right' duration={1000}>
        <div className='flex justify-start gap-10 flex-wrap w-full'>
         {skills.map((skill) => (
           <Myskill
@@ -53,6 +54,7 @@ const Skills = () => {
           />
         ))}
         </div>
+        </AosAnimation>
       </section>
     </>
   );

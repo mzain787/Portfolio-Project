@@ -240,19 +240,19 @@ const Sidebar = () => {
             ></path>
           </svg>
         </button>
-        <div className="transform -rotate-90 p-2 cursor-pointer flex items-center mb-40">
+        <div onClick={openProfileModal} className="transform -rotate-90 p-2 cursor-pointer flex items-center mb-40">
         <span className="text-black text-sm space-x-1 mr-2 bg-orange-300 w-5 h-5 rounded-full flex items-center justify-center">
             <FontAwesomeIcon className="m-1 mx-2" icon={faPlay}/>
           </span>
-          <button onClick={openProfileModal} className="whitespace-nowrap text-md font-semibold tracking-wide" style={{ color: "#534b7a"}}>
+          <button  className="whitespace-nowrap text-md font-semibold tracking-wide" style={{ color: "#534b7a"}}>
             Watch My Profile
           </button>
         </div>
-        <div className="transform -rotate-90 p-2 cursor-pointer flex items-center">
+        <div onClick={handleScrollDown} className="transform -rotate-90 p-2 cursor-pointer flex items-center">
         <span className="text-orange-300 text-xl mr-2 flex items-center justify-center">
             <FontAwesomeIcon icon={faArrowLeft} />
           </span>
-          <button className="whitespace-nowrap text-md font-semibold tracking-wide" style={{ color: "#534b7a"}} onClick={handleScrollDown}>Scroll Down</button>
+          <button className="whitespace-nowrap text-md font-semibold tracking-wide" style={{ color: "#534b7a"}}>Scroll Down</button>
         </div>
         </div>
         <div ref={sidebarRef} className={`sidebar-content flex flex-col items-center absolute h-screen p-8 ${sidebarVisible ? "sidebar-open" : "sidebar-close"}`}>

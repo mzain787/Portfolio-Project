@@ -1,5 +1,6 @@
 import React from 'react';
 import "../Home/Home.css"
+import AosAnimation from '@/utils/AosAnimation';
 export default function Myskill({ number, skill, description }) {
   return (
     <>

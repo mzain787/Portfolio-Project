@@ -3,6 +3,7 @@ import "../Home/Home.css"
 import manPic from "../../assets/images/journey-man.png"
 import { MyExperience } from '../Childcomps/Myskill'
 import HomeComponentsHeading from '../Childcomps/HomeComponentsHeading'
+import AosAnimation from '@/utils/AosAnimation'
 const Journey = () => {
   const experiences = [
     {
@@ -45,16 +46,18 @@ const Journey = () => {
         </div>
      <div className="journey-content pb-10">
      <HomeComponentsHeading smallheading="⏱️ MY JOURNEY & TRACK RECORD" heading="Tons of" subheading="Experiences"/>
+     <AosAnimation type="fade-left">
      <div className='w-full flex flex-wrap'>
         {experiences.map((experience) => (
           <MyExperience
-            key={experience.year} 
+            key={experience.year}
             year={experience.year}
             jobTitle={experience.jobTitle}
             jobDescription={experience.jobDescription}
           />
         ))}
         </div>
+        </AosAnimation>
      </div>
      </div>
     </section>

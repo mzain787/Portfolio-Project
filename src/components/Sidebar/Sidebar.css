@@ -3,7 +3,7 @@
  }
  .sidebar-content {
   background-color: #1A1826;
-  transition: left 2s ease; /* Transition property for smooth animation */
+  transition: left 2s ease-in-out;
   width: 400px;
   overflow-y: auto;
 }
