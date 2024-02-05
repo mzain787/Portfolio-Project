@@ -1,9 +1,11 @@
+import AosAnimation from "@/utils/AosAnimation";
 import "./PortfolioSection.css";
 import React from "react";
 
 const PortfolioProject = ({ pprojectName, ppLink, ppImage }) => {
   return (
     <section className="portfolio-project mb-10">
+      <AosAnimation type="flip-up" duration={1000}>
       <div className="portfolio-project-image mb-3 w-full">
         <img src={ppImage.src} className="w-full" />
       </div>
@@ -18,6 +20,7 @@ const PortfolioProject = ({ pprojectName, ppLink, ppImage }) => {
         </div>
         <a href={ppLink} className="text-sm text-orange-200 pb-1 border-b border-orange-200">ShowCase</a>
       </div>
+      </AosAnimation>
     </section>
   );
 };

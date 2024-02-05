@@ -7,7 +7,6 @@ import MyAccordionComponent from "@/components/Childcomps/MyAccordianComponent/M
 import HomeComponentsHeading from "@/components/Childcomps/HomeComponentsHeading";
 import Startups from "@/components/Childcomps/Startups";
 const Contact = () => {
-  // Create an array of objects for accordion items
   const accordionData = [
     {
       title: "Accordion Item 1",
@@ -28,7 +27,7 @@ const Contact = () => {
   ];
 
   return (
-    <>
+    <div className="tilt-in-bl">
       <PageHeading pageHeading="Contact Me" />
       <div className="contact-section wrapper component-padding">
         <div className="contact-top mb-20">
@@ -64,7 +63,7 @@ const Contact = () => {
         </div>
         <Startups/>
       </div>
-    </>
+    </div>
   );
 };
 

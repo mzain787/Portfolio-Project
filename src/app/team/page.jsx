@@ -17,7 +17,7 @@ const Team = () => {
   return (
     <>
       <PageHeading pageHeading="Meet the Team" />
-      <div className='wrapper component-padding our-team flex flex-wrap justify-start gap-10'>
+      <div className='wrapper component-padding our-team flex flex-wrap justify-start gap-10 roll-in-top'>
         {ourteam.map((teamMember, index) => (
           <TeamSection
             key={index} 

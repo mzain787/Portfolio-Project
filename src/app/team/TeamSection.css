@@ -1,3 +1,17 @@
+.roll-in-top {
+	animation: roll-in-top 1s ease-out both;
+}
+ @keyframes roll-in-top {
+  0% {
+    transform: translateY(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
 .component-padding {
   padding: 80px 80px 80px 100px;
 }
