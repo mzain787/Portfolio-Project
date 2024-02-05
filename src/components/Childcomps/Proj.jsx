@@ -1,13 +1,17 @@
 import React from "react";
 import "../Home/Home.css";
 import star from "../../assets/images/star.svg";
+import AosAnimation from "@/utils/AosAnimation";
 const Proj = ({projectCategory,projectDescription,projectClient,projectImg,projectRating,reverseOrder, showcaseLink}) => {
   return (
     <div className={`our-project flex items-center gap-10 ${reverseOrder ? 'flex-row-reverse' : 'flex-row'}`}>
       
       <div className="project-image">
-          <img src={projectImg.src} className="w-full"/>
+      <AosAnimation type="flip-up" duration={1000}>
+        <img src={projectImg.src} className="w-full"/>
+      </AosAnimation>
       </div>
+      
       <div className="project-info">
         <div className="project-category mb-6">
           <h3 className="text-sm text-gray-600 font-semibold tracking-wide mb-1">

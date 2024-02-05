@@ -5,9 +5,10 @@ import Skills from "./Skills.jsx"
 import Journey from './Journey.jsx'
 import Testimonials from './Testimonials.jsx'
 import Projects from './Projects.jsx'
+import "./Home.css"
 const Homepage = () => {
   return (
-    <div>
+    <div className='bounce-in-top'>
     <Hero/>
     <Intro/>
     <Skills/>

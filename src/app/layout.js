@@ -11,8 +11,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Sidebar />
         <Header/>        
+        <Sidebar />
         {children}
         <Footer/>
       </body>

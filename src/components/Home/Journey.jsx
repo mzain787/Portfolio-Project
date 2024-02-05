@@ -46,7 +46,7 @@ const Journey = () => {
         </div>
      <div className="journey-content pb-10">
      <HomeComponentsHeading smallheading="⏱️ MY JOURNEY & TRACK RECORD" heading="Tons of" subheading="Experiences"/>
-     <AosAnimation type="fade-left">
+     <AosAnimation type="zoom-in-up" duration={1000}>
      <div className='w-full flex flex-wrap'>
         {experiences.map((experience) => (
           <MyExperience

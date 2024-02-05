@@ -24,7 +24,6 @@
 .dropdown-options {
   background-color: #1A1826;
 }
-
 .dropdown-content a {
   float: none;
   padding: 12px 16px;
@@ -94,6 +93,4 @@
       opacity: 1;
     }
   }
- 
-  
 }

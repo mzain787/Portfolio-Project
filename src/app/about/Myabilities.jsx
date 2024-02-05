@@ -31,7 +31,7 @@ const skillsData = [
     { skillName: 'JavaScript', percentage: '92%' },
     { skillName: 'React.js', percentage: '95%' },
     { skillName: 'Next.js', percentage: '75%' },
-    { skillName: 'Reduc Toolkit', percentage: '80%' },
+    { skillName: 'Reducx Toolkit', percentage: '80%' },
   ];
 const Myabilities = () => {
   return (

@@ -65,7 +65,7 @@ const closeMenu = () => {
   return (
     <>
       <header
-        className={`header flex justify-between items-center fixed z-30 w-full ${
+        className={`header flex justify-between items-center fixed w-full z-30 ${
           scrolled ? "back-color" : ""
         }`}
       >
