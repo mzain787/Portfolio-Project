@@ -5,7 +5,7 @@ import zain from '../../assets/images/testimonial-image.png';
 import "./TeamSection.css"
 const Team = () => {
   const ourteam = [
-    { t_image: zain, t_name: 'Richard jonson', t_job: 'Junior Frontend Developer' },
+    { t_image: zain1, t_name: 'Richard jonson', t_job: 'Junior Frontend Developer' },
     { t_image: zain, t_name: 'Richard jonson', t_job: 'Junior Frontend Developer' },
     { t_image: zain, t_name: 'Richard jonson', t_job: 'Junior Frontend Developer' },
     { t_image: zain, t_name: 'Richard jonson', t_job: 'Junior Frontend Developer' },

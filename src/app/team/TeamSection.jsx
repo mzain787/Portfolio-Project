@@ -6,7 +6,7 @@ const TeamSection = ({ t_image, t_name, t_job }) => {
       <img
         src={t_image.src}
         alt={`${t_name}'s profile`}
-        className="w-full team-image"
+        className="w-full h-auto team-image"
       />
       <div className="team-member-info p-4">
       <h2 className="text-orange-200 text-lg font-semibold mb-1">{t_name}</h2>
