@@ -3,7 +3,6 @@ import "../Home/Home.css"
 import manPic from "../../assets/images/journey-man.png"
 import { MyExperience } from '../Childcomps/Myskill'
 import HomeComponentsHeading from '../Childcomps/HomeComponentsHeading'
-import AosAnimation from '@/utils/AosAnimation'
 const Journey = () => {
   const experiences = [
     {
@@ -46,7 +45,6 @@ const Journey = () => {
         </div>
      <div className="journey-content pb-10">
      <HomeComponentsHeading smallheading="⏱️ MY JOURNEY & TRACK RECORD" heading="Tons of" subheading="Experiences"/>
-     <AosAnimation type="zoom-in-up" duration={1000}>
      <div className='w-full flex flex-wrap'>
         {experiences.map((experience) => (
           <MyExperience
@@ -57,7 +55,6 @@ const Journey = () => {
           />
         ))}
         </div>
-        </AosAnimation>
      </div>
      </div>
     </section>

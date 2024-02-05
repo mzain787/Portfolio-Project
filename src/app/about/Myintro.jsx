@@ -10,7 +10,7 @@ const Myintro = () => {
         <img src={manImg.src} alt="man-image" className='w-full'/>
       </div>
       <div className="intro-content pb-3">
-        <h2 className='intro-tagline text-purple-200 mb-8'>I design not for the you as client but for your users</h2>
+        <h2 className='intro-tagline text-purple-200 mb-8 text-focus-in'>I design not for the you as client but for your users</h2>
         <div className="myname-profession mb-8">
           <h3 className='text-xl tracking-wide mb-2 text-purple-200 font-semibold'>Tom Raclift</h3>
           <h4 className='text-orange-300 text-lg font-medium'>Senior UI UX Designer</h4>

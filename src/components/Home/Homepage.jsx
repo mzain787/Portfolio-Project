@@ -6,6 +6,7 @@ import Journey from './Journey.jsx'
 import Testimonials from './Testimonials.jsx'
 import Projects from './Projects.jsx'
 import "./Home.css"
+import AosAnimation from '@/utils/AosAnimation.js'
 const Homepage = () => {
   return (
     <div className='bounce-in-top'>
@@ -13,7 +14,9 @@ const Homepage = () => {
     <Intro/>
     <Skills/>
     <Journey/>
+    <AosAnimation type='flip-left'>
     <Testimonials/>
+    </AosAnimation>
     <Projects/>
     </div>
   )

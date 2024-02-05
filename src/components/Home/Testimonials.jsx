@@ -8,7 +8,6 @@ import Testimonial from "../Childcomps/Testimonial";
 import clientImg1 from "../../assets/images/testimonial-image.png";
 import HomeComponentsHeading from "../Childcomps/HomeComponentsHeading";
 import Hirebtn from "../Childcomps/Hirebtn";
-
 const Testimonials = ({showHeading = true}) => {
   const testimonials = [
     {
