@@ -5,35 +5,34 @@ const Skills = () => {
   const skills = [
     {
       number: "01",
-      skill: "UI Design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+      skill: "Adobe Photoshop",
+      description: "Proficient in Adobe Photoshop, skilled in creating visually appealing designs and graphics for various digital platforms with precision and creativity."
     },
     {
       number: "02",
-      skill: "UI Animation",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+      skill: "Web Design",
+      description: "Experienced in designing intuitive and aesthetically pleasing websites, focusing on user experience and functionality to deliver engaging online experiences."
     },
     {
       number: "03",
-      skill: "UX Design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+      skill: "User Interface Design",
+      description: "Adept at crafting user-centric interfaces, ensuring seamless interaction between users and digital products through thoughtful layout and visual design."
     },
     {
       number: "04",
-      skill: "UX Research",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+      skill: "Full Stack Dev",
+      description: "Well-versed in both front-end and back-end development, capable of building end-to-end web applications from conceptualization to deployment using a variety of technologies."
     },
     {
       number: "05",
-      skill: "Wireframe",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+      skill: "Data Scraping",
+      description: "Skilled in extracting and parsing data from various sources on the web, utilizing automated tools and scripts to gather valuable information for analysis and decision-making."
     },
     {
       number: "06",
-      skill: "Design System",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+      skill: "Frontend Dev",
+      description: "Proficient in developing responsive and dynamic user interfaces using HTML, CSS, and JavaScript, with a focus on creating engaging and interactive web experiences for users."
     }
-    // Add more skills as needed
   ];
 
   return (

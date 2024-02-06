@@ -11,7 +11,7 @@ export default function Myskill({ number, skill, description }) {
           <h3 className='skill-heading font-semibold text-purple-200'>{skill}</h3>
         </div>
         <div>
-          <p className='description mb-3 text-base font-medium tracking-wide'>{description}</p>
+          <p className='description mb-3 text-base font-normal tracking-wide'>{description}</p>
           <a href="/" className='pb-1 border-b-2 text-orange-300 border-orange-300 text-sm font-medium'>See Past Work</a>
         </div>
         </AosAnimation>

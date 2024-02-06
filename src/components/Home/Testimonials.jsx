@@ -5,35 +5,50 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../Home/Home.css";
 import Testimonial from "../Childcomps/Testimonial";
-import clientImg1 from "../../assets/images/testimonial-image.png";
 import HomeComponentsHeading from "../Childcomps/HomeComponentsHeading";
 import Hirebtn from "../Childcomps/Hirebtn";
 const Testimonials = ({showHeading = true}) => {
   const testimonials = [
     {
       clientReview:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      clientImg: clientImg1,
-      clientName: "Jimmy Sams",
+        "Absolutely hit it out of the park. Collaborated seamlessly with me and delivered precisely as per my instructions. I wholeheartedly endorse and highly recommend their services",
+      clientProj: "Full Stack - HomeSchool Communities"
     },
     {
       clientReview:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      clientImg: clientImg1,
-      clientName: "Andrew Tate",
+        "Muhammad is the man! Super fast and is a problem solver. Will definitely be using him in the future",
+      clientProj:"Full Stack"
     },
     {
       clientReview:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      clientImg: clientImg1,
-      clientName: "Jimmy Sams",
+        "Great experience again! Happy to work again in the future",
+      clientProj:"New design mockup to existing NextJs website"
     },
     {
       clientReview:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      clientImg: clientImg1,
-      clientName: "Andrew Tate",
+        "Muhammad understood the scope of the project very quickly and got to work immediately. He's a good communicator and listens carefully",
+      clientProj:"Reactjs: responsive product suggestion page"
     },
+    {
+      clientReview:
+        "Excellent experience. Muhammad created a professional looking website with minimal instructions, and made all adjustments as requested in a timely manner. Will look to hire again",
+      clientProj:"NFT Website Creation (Javascript / React dev required)"
+    },
+    {
+      clientReview:
+        "One of the best freelancers I have worked with. He was friendly, helpful, and has been really patient with me (I have no knowledge of web design). I would highly recommend Muhammad if you're looking for a website.",
+      clientProj:"Redesign of Site"
+    },
+    {
+      clientReview:
+        "Muhammad did a very nice job integrating my current website with netlify CMS.",
+      clientProj:"Fully SEO loaded responsive Gatsby.js Site with all CMS Integration"
+    },
+    {
+      clientReview:
+        "Implementation went smoothly and as planned. Overall, we liked the collaboration and we will definitely keep in touch and hire this freelancer in the future.",
+      clientProj:"Cyscale website v2 - Gatsby and new design from Symbold"
+    }
   ];
 
   const settings = {
@@ -95,8 +110,7 @@ const Testimonials = ({showHeading = true}) => {
               <Testimonial
                 key={testimonial.clientName}
                 clientReview={testimonial.clientReview}
-                clientImg={testimonial.clientImg}
-                clientName={testimonial.clientName}
+                clientProj={testimonial.clientProj}
               />
             ))}
           </Slider>
