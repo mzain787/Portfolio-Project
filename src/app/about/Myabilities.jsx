@@ -64,7 +64,7 @@ const Myabilities = () => {
        
         </div>
         <Startups/>
-        <AosAnimation type="zoom-in-up" duration={2000}>
+        <AosAnimation type="zoom-in-up" duration={1000}>
         <div className="about-bottom flex flex-col justify-center items-center">
             <h3 className='about-bottom-heading text-center font-semibold text-purple-200 mb-10'>Want to Work Together And Create An Amazing Products With Me?</h3>
             <Hirebtn/>

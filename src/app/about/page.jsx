@@ -11,7 +11,7 @@ const About= () => {
       <PageHeading pageHeading="About Me"/>
       <div className='rotate-in-center'>
       <Myintro/>
-      <AosAnimation type="zoom-in" duration={3000}>
+      <AosAnimation type="zoom-in" duration={1000}>
       <MyWork/>
       </AosAnimation>
       <Myabilities/>

@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
         
         <div className="hero-image">
-        <AOSAnimation type="fade-right"  easing='linear' duration={500}>
+        <AOSAnimation type="fade-right"  easing='linear' duration={300}>
           <Image
           className='w-full'
           src={man}

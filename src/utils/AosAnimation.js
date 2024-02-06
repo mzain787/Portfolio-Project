@@ -7,7 +7,7 @@ const AosAnimation = ({ type, duration, easing, children }) => {
   useEffect(() => {
     AOS.init({
       duration: duration || 1000,
-      delay: 1000,
+      delay: 0,
       easing: easing || 'ease-in-out'
     });
     return () => AOS.refresh();
