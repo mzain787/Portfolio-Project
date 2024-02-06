@@ -5,6 +5,7 @@ import fiverr from "../../assets/images/fi.png"
 import upwork from "../../assets/images/up.png"
 import man from "../../assets/images/man-image.png"
 import AOSAnimation from '@/utils/AosAnimation'
+import Image from 'next/image'
 const Hero = () => {
   return (
     <>
@@ -44,7 +45,11 @@ const Hero = () => {
         
         <div className="hero-image">
         <AOSAnimation type="fade-right"  easing='linear' duration={500}>
-          <img src={man.src} alt="man-image" className='w-full'/>
+          <Image
+          className='w-full'
+          src={man}
+          alt='man-imge'
+          />
           </AOSAnimation>
         </div>
        
