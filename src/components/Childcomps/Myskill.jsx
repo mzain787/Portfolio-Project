@@ -5,7 +5,7 @@ export default function Myskill({ number, skill, description }) {
   return (
     <>
       <div className="myskill mb-10">
-      <AosAnimation type="flip-up" duration={1000} easing='linear'>
+      <AosAnimation type="flip-up" duration={2000} easing='linear'>
         <div className="pb-4 border-b border-gray-800 mb-10 flex flex-wrap gap-2 items-center">
           <div className="skill-no text-purple-400">{number}.</div>
           <h3 className='skill-heading font-semibold text-purple-200'>{skill}</h3>
@@ -23,7 +23,7 @@ export  function MyExperience({ year, jobTitle, jobDescription }) {
   return (
     <>
       <div className="myexperience mb-10">
-        <AosAnimation type="fade-right" duration={1000}>
+        <AosAnimation type="fade-right" duration={2000}>
         <div className="pb-4 mb-5 flex items-center">
           <p className="exp-year text-xl text-orange-300 p-2 font-bold tracking-wide">{year}</p>
           <hr className='journey-line w-full'/>
