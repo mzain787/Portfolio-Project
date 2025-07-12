@@ -1,12 +1,11 @@
-
 .shake-vertical {
-	animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: shake-vertical 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 .bounce-top {
-	animation: bounce-top 2s both;
+  animation: bounce-top 2s both;
 }
 .bounce-in-top {
-	animation: bounce-in-top 2s both;
+  animation: bounce-in-top 2s both;
 }
 @keyframes shake-vertical {
   0%,
@@ -31,7 +30,7 @@
     transform: translateY(-6.4px);
   }
 }
- @keyframes bounce-top {
+@keyframes bounce-top {
   0% {
     transform: translateY(-45px);
     animation-timing-function: ease-in;
@@ -69,7 +68,7 @@
     opacity: 1;
   }
 }
- @keyframes bounce-in-top {
+@keyframes bounce-in-top {
   0% {
     transform: translateY(-500px);
     animation-timing-function: ease-in;
@@ -105,8 +104,6 @@
     animation-timing-function: ease-out;
   }
 }
-
-
 
 /* Hero Section CSS */
 .components-main-heading {
@@ -159,12 +156,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); 
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 .video-play-iocn {
@@ -199,11 +191,12 @@
 }
 /* Experience CSS */
 .myexperience {
-  width: 30%;
+  width: 100%;
 }
 .exp-year {
   border: 2px solid rgb(250, 213, 145);
   font-family: "Syne", sans-serif;
+  width: 160px;
 }
 .journey-line {
   border: 2px solid gray;
@@ -246,15 +239,10 @@
   width: 15%;
 }
 
-
-
 @media (max-width: 1280px) {
   /* Hero Section */
   .hero-section {
     padding: 120px 30px 50px 100px;
-  }
-  .myexperience {
-    width: 50%;
   }
   /* Projects CSS */
   .heading-part {
