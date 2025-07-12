@@ -100,7 +100,7 @@ const Header = () => {
         {/* Right side with social media icons */}
         <div className="flex items-center social-media">
           <a
-            href="https://www.linedin.com/in/mzain787"
+            href="https://www.linkedin.com/in/mzain787"
             className="text-white mx-2"
           >
             <FontAwesomeIcon
